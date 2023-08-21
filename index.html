@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <h1>EUGENIA HUBER</h1>
+    <img id="foto" src="foto.jfif" width="220px">
+    <p>¡Hola! Soy Eugenia, me destaco por ser responsable, dinámica, eficiente. Tengo gran caracter y actitud para
+        trabajar tanto en equipo como individualmente, capaz de adquirir nuevos desafios.</p>
+    <hr>
+    <ul>
+        <li><a class="links" href="#exp">Experiencia Laboral</a></li>
+        <li><a class="links" href="#hab">Habilidades y Conocimientos</a></li>
+        <li><a class="links" href="#edu">Educación</a></li>
+        <li><a class="links" href="#per">Perfiles Sociales</a></li>
+        <li><a class="links" href="#con">Contactar</a></li>
+    </ul>
+    </hr>
+    <div id="exp">
+        <h2 class="subtit">Experiencia Laboral </h2>
+        <table>
+            <tr>
+                <th class="experiencia">Empresa/organización </th>
+                <th class="experiencia">Cargo</th>
+                <th class="experiencia">Localización </th>
+                <th class="experiencia">Desde-hasta</th>
+            </tr>
+            <tr>
+                <td>Berlín Burgers & Biers</td>
+                <td>Moza</td>
+                <td>Nueva Helvecia, Colonia</td>
+                <td>Verano 2022-2023</td>
+            </tr>
+            <tr>
+                <td>Escuela de Gimnasia Oasis</td>
+                <td>Ayudante de profesora</td>
+                <td>Nueva Helvecia, Colonia</td>
+                <td>2019</td>
+            </tr>
+            <tr>
+                <td>ACJ</td>
+                <td>Líder</td>
+                <td>Colonia-Montevideo</td>
+                <td>Desde 2019</td>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+    <div id="hab">
+        <h2 class="subtit">Habilidades y conocimientos</h2>
+        <ul>
+            <li><strong>Comunicación:</strong>Capacidad para expresar ideas de manera clara y efectiva, tanto
+                verbalmente como por escrito. Soy una buena comunicadora, lo cual me permite transmitir información de manera
+                comprensible y mantener una interacción fluida con colegas, clientes y otras personas.</li>
+            <li><strong>Resolución de problemas:</strong> Destreza para abordar desafíos y obstáculos de manera creativa
+                y eficiente. Enfrento situaciones difíciles y busco encontrar enfoques innovadores para superarlas.</li>
+            <li><strong>Pensamiento creativo:</strong>Habilidad para abordar problemas con enfoques novedosos y fuera de
+                lo convencional.
+        </ul>
+    </div>
+    <hr>
+    <div id="edu">
+        <h2 class="subtit">Educación</h2>
+        <table>
+            <tr>
+                <th>Título</th>
+                <th>Lugar</th>
+                <th>Graduación</th>
+            </tr>
+            <tr>
+                <td>Bachiller Audiovisual</td>
+                <td>Polo educativo tecnológico Arrayanes</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>Técnica en Audiovisual</td>
+                <td>Polo educativo tecnológico LATU</td>
+                <td>2024</td>
+            </tr>
+        </table>
+    </div>
+    <hr>
+    <div id="per">
+        <h2 class="subtit">Perfiles Sociales</h2>
+        <p>También puedes encontrarme en:</p>
+        <ul>
+            <li><a class="links" href=https://es-la.facebook.com>Eugenia Huber</a></li>
+            <li><a class="links" href=https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Des>Twitter</a>
+            </li>
+            <li><a class="links" href=https://www.linkedin.com/feed>Linkedin</a></li>
+        </ul>
+    </div>
+    <hr>
+    <div id="con">
+        <h2 class="subtit">Contactar</h2>
+        <p> Para:<input type="text" name="para" required></p>
+        <form>
+            <label for="caja_opciones">Temática:</label>
+            <select id="caja_opciones" name="caja_opciones">
+                <option value="opcion1">-- Elige un tema --</option>
+                <option value="opcion2">Consulta</option>
+                <option value="opcion3">Propuesta</option>
+                <option value="opcion5">Otro</option>
+            </select>
+        </form>
+        <p> Asunto:<input type="text" name="asunto" required></p>
+        <p> Cuerpo:<textarea name="asunto" style="width:200px; height:30px;"></textarea></p>
+        <p> <input id="boton" type="button" value="Enviar"></p>
+    </div>
+</body>
+
+</html>
